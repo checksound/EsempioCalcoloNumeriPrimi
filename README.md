@@ -10,13 +10,13 @@ Runtime.getRuntime().availableProcessors();
 
 Codice esempio calcolo numeri primi:
 
-Vesrsione 1 - creazione di thead: [javanotes8.javanotes8.ThreadTest1](./src/javanotes8/ThreadTest1.java)
+Vesrsione 1 - creazione di thead: [javanotes8.ThreadTest1](./src/javanotes8/ThreadTest1.java)
 
-Versione 2 - coordinamento tramite **join** e utilizzo di **synchronized**: [javanotes8.javanotes8.ThreadTest2](./src/javanotes8/ThreadTest2.java)
+Versione 2 - coordinamento tramite **join** e utilizzo di **synchronized**: [javanotes8.ThreadTest2](./src/javanotes8/ThreadTest2.java)
 
-Versione 3 - utilizzo di variabili atomiche: [javanotes8.javanotes8.ThreadTest3](./src/javanotes8/ThreadTest3.java)
+Versione 3 - utilizzo di variabili atomiche: [javanotes8.ThreadTest3](./src/javanotes8/ThreadTest3.java)
 
-Versione 4 - utilizza `Callable`, `Future` ed `ExecutorService`: [javanotes8.javanotes8.ThreadTest4](./src/javanotes8/ThreadTest4.java).
+Versione 4 - utilizza `Callable`, `Future` ed `ExecutorService`: [javanotes8.ThreadTest4](./src/javanotes8/ThreadTest4.java).
 
 In questo programma, ogni subtask conta i numeri primi in un sottorange di
 interi. I subtask sono rappresentati da oggetti di tipo `Callable<Integer>`, definiti in questa nested class:
