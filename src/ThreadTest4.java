@@ -1,5 +1,3 @@
-package javanotes8;
-
 import textio.TextIO;
 
 import java.util.ArrayList;

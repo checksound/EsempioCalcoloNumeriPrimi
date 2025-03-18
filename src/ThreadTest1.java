@@ -1,5 +1,3 @@
-package javanotes8;
-
 import textio.TextIO;
 
 /**
@@ -87,5 +85,5 @@ public class ThreadTest1 {
     }
 
 
-} // end class javanotes8.ThreadTest1
+} // end class ThreadTest1
 
