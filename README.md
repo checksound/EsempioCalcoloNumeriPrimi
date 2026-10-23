@@ -10,9 +10,14 @@ Runtime.getRuntime().availableProcessors();
 
 Codice esempio calcolo numeri primi:
 
-Vesrsione 1 - creazione di thead: [ThreadTest1](./src/ThreadTest1.java)
+Versione 1 - creazione di thead: [ThreadTest1](./src/ThreadTest1.java)
 
-Versione 2 - coordinamento tramite **join** e utilizzo di **synchronized**: [ThreadTest2](./src/ThreadTest2.java)
+Versione 1 NEXT - coordinamento dei thread tramite **join** ma senza
+condivisione di un contatore condiviso (come invece in Versione 2):
+[PrimeNumberCounter](./src/PrimeNumberCounter.java)
+
+Versione 2 - coordinamento dei thread tramite **join** e 
+utilizzo di **synchronized**: [ThreadTest2](./src/ThreadTest2.java)
 
 Versione 3 - utilizzo di variabili atomiche: [ThreadTest3](./src/ThreadTest3.java)
 
