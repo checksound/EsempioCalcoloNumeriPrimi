@@ -8,7 +8,7 @@ Runtime.getRuntime().availableProcessors();
 
 ```
 
-Codice esempio calcolo numeri primi:
+Codice esempio [calcolo numeri primi](https://iisponti.gitbook.io/tecnologie_quinta/esempio-calcolo-numeri-primi):
 
 Versione 1 - creazione di thead: [ThreadTest1](./src/ThreadTest1.java)
 

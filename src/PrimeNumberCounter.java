@@ -20,7 +20,7 @@ public class PrimeNumberCounter {
      * of integers.  The range is from min to max, inclusive, where min and max
      * are given as parameters to the constructor.  After counting, the thread
      * outputs a message about the number of primes that it has found, and it
-     * adds its count to the overall total by calling the addToTotal(int) method.
+     * sets countPrimes variable with the number of primes that it has found.
      */
     private static class CountPrimesThread extends Thread {
         int count = 0;
