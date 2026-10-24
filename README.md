@@ -1,4 +1,4 @@
-# ESEMPIO CALCOLO DEI NUMERI PRIMI
+# ESEMPIO CONTEGGIO DEI NUMERI PRIMI
 
 Per sapere il numero di processori su PC:
 
@@ -8,7 +8,7 @@ Runtime.getRuntime().availableProcessors();
 
 ```
 
-Codice esempio [calcolo numeri primi](https://iisponti.gitbook.io/tecnologie_quinta/esempio-calcolo-numeri-primi):
+Vedi per capire la problematica [Esempio conteggio dei Numeri Primi](https://iisponti.gitbook.io/tecnologie_quinta/esempio-conteggio-dei-numeri-primi):
 
 Versione 1 - creazione di thead: [ThreadTest1](./src/ThreadTest1.java)
 
